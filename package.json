@@ -1,0 +1,24 @@
+{
+  "name": "node_registry_event",
+  "version": "0.1.0",
+  "description": "search for events",
+  "main": "event.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "clean": "rm -rf dist",
+    "prettier:check": "prettier --check src/**/*.ts",
+    "prettier:write": "prettier --write src/**/*.ts src/**/*.ts",
+    "event": "node dist/event.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "dotenv": "^16.4.5",
+    "ethers": "5.7.2",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
